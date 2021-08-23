@@ -1,0 +1,24 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "This project uses several NPM packages together to create a complete application with a functioning front and back end. Users can log in ad create, edit, or delete posts from a dashboard. Other users can see their posts on the home page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
