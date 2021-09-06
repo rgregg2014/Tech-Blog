@@ -1,0 +1,32 @@
+/* HOMEPAGE STYLES */
+.box {
+  margin: 5%;
+}
+
+.boxEl {
+  margin: 0.5%;
+  padding: 0.5%;
+  border-radius: 5px;
+  font-family: "Kaisei HarunoUmi", serif;
+}
+
+.postText {
+  margin: 0.5%;
+  padding: 1%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* LOGIN STYLES */
+
+.formParent {
+  margin: 5%;
+}
+
+/* GLOBALS AND FONTS */
+.fontTitle {
+  font-family: "Kaisei HarunoUmi", serif;
+}
+
+.fontSubtitle {
+  font-family: "Montserrat", sans-serif;
+}
