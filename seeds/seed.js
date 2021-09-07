@@ -13,7 +13,7 @@ const seedAll = async () => {
 
   for (const post of postSeedData) {
     const newPost = await Post.create({
-      ...Post,
+      ...post,
       user_id: users[Math.floor(Math.random() * users.length)].id,
     });
   }
