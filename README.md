@@ -2,7 +2,7 @@
 
 ## Description
 
-This project uses several NPM packages together to create a complete application with a functioning front and back end. Users can log in ad create, edit, or delete posts from a dashboard. Other users can see their posts on the home page.
+This project uses several NPM packages together to create a complete application with a functioning front and back end. Users can log in and create, edit, or delete posts from a dashboard. Other users can see their posts on the home page.
 
 ## License
 
