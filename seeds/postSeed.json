@@ -1,19 +1,18 @@
 [
-    {
-      "title": "RegEx",
-      "content": "Regular expressions are super handy! Use them often!"
-    },
-    {
-      "title": "Session",
-      "content": "Oh boy using express-session is complicated! I need more practice!"
-    },
-    {
-      "title": "Handlebars",
-      "content": "Using express-handlebars is a whole new way of building websites! Super cool!"
-    },
-    {
-      "title": "Routes",
-      "content": "Setting up these routes can be really complicated. Especially if you don't have your index set up right!"
-    }
-  ]
-  
+  {
+    "title": "RegEx",
+    "content": "Regular expressions are super handy! Use them often!"
+  },
+  {
+    "title": "Session",
+    "content": "Oh boy using express-session is complicated! I need more practice!"
+  },
+  {
+    "title": "Handlebars",
+    "content": "Using express-handlebars is a whole new way of building websites! Super cool!"
+  },
+  {
+    "title": "Routes",
+    "content": "Setting up these routes can be really complicated. Especially if you don't have your index set up right!"
+  }
+]

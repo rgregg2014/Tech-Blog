@@ -1,68 +1,84 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Tech Blog</title>
   </head>
   <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a  href="/" class="fontTitle navbar-item is-size-1">
-        Tech Blog
-      </a>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class=" fontTitle navbar-link is-size-3">
-          More
-        </a>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="/" class="fontTitle navbar-item is-size-1">
+            Tech Blog
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="fontTitle navbar-link is-size-3">
+              More
+            </a>
 
-        <div class="navbar-dropdown">
-          <a href="/" class="fontSubtitle navbar-item is-size-5">
-            Home
-          </a>
-          <hr class="navbar-divider">
-          <a href="/dashboard" class="fontSubtitle navbar-item is-size-5">
-            Dashboard
-          </a>
+            <div class="navbar-dropdown">
+              <a href="/" class="fontSubtitle navbar-item is-size-5">
+                Home
+              </a>
+              <hr class="navbar-divider" />
+              <a href="/dashboard" class="fontSubtitle navbar-item is-size-5">
+                Dashboard
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a
+                href="/signup"
+                class="button fontTitle is-medium has-text-white has-background-grey-dark"
+              >
+                <strong>Sign Up</strong>
+              </a>
+              <a
+                href="/login"
+                class="button fontTitle is-medium has-text-grey-dark has-background-grey-light"
+              >
+                Log In
+              </a>
+              <a
+                href="/"
+                class="button fontTitle is-medium has-text-grey-dark has-background-grey-light"
+              >
+                Log Out
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a href="/signup" class="button fontTitle is-medium has-text-white has-background-grey-dark">
-            <strong>Sign Up</strong>
-          </a>
-          <a href="/login" class="button fontTitle is-medium has-text-grey-dark has-background-grey-light">
-            Log In
-          </a>
-          <a href="/" class="button fontTitle is-medium has-text-grey-dark has-background-grey-light">
-            Log Out
-          </a>
-        </div>
+    </nav>
+
+    {{{body}}}
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p class="fontSubtitle">
+          <strong>The Tech Blog</strong>
+          by
+          <a href="https://github.com/rgregg2014">Rachel Gregg</a>. Made as a
+          homework assignment for the Columbia Engineering Coding Bootcamp.
+        </p>
       </div>
-    </div>
-  </div>
-</nav>
-  
-  {{{body}}}
-
-
-<footer class="footer">
-  <div class="content has-text-centered">
-    <p class="fontSubtitle">
-      <strong>The Tech Blog</strong> by <a href="https://github.com/rgregg2014">Rachel Gregg</a>. Made as a homework assignment for the Columbia Engineering Coding Bootcamp.
-    </p>
-  </div>
-</footer>
+    </footer>
 
     <script src="/js/index.js"></script>
     <script src="/js/login.js"></script>
