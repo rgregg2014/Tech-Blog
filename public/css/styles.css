@@ -1,32 +1,154 @@
-/* HOMEPAGE STYLES */
-.box {
-  margin: 5%;
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  font-size: 24px;
 }
 
-.boxEl {
-  margin: 0.5%;
-  padding: 0.5%;
-  border-radius: 5px;
-  font-family: "Kaisei HarunoUmi", serif;
+.posts-container {
+  margin-bottom: 30px;
+  border: 3px solid #2a2423;
+  background-color: #2a2423;
+  border-radius: 7px;
 }
 
-.postText {
-  margin: 0.5%;
-  padding: 1%;
-  font-family: "Montserrat", sans-serif;
+.posts-container-logged-out {
+  margin-bottom: 30px;
+  border: 3px solid #5d5554;
+  border-radius: 7px;
 }
 
-/* LOGIN STYLES */
-
-.formParent {
-  margin: 5%;
+.posts-title-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2423;
+  padding: 20px;
+  color: #c4d0c8;
 }
 
-/* GLOBALS AND FONTS */
-.fontTitle {
-  font-family: "Kaisei HarunoUmi", serif;
+.posts-title {
+  font-size: 1.3em;
+  font-weight: bolder;
 }
 
-.fontSubtitle {
-  font-family: "Montserrat", sans-serif;
+.posts-content {
+  background-color: #c4d0c8;
+  padding: 20px;
+  font-size: 105em;
+}
+
+.posts-edit-btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.posts-delete-btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.posts-content-logged-out {
+  background-color: #5d5554;
+  padding: 20px;
+  font-size: 1.05em;
+  color: #bab9b7;
+}
+
+.login-container {
+  margin-bottom: 30px;
+  border: 3px solid #2a2423;
+  background-color: #2a2423;
+  border-radius: 7px;
+}
+
+.login-title-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2423;
+  padding: 20px;
+  color: #c4d0c8;
+}
+
+.login-title {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.login-content {
+  background-color: #c4d0c8;
+  padding: 20px;
+  font-size: 1.05em;
+}
+
+.btn-login {
+  background-color: #5d5554;
+  margin-bottom: 10px;
+}
+
+.the-tech-blog-your-dashboard {
+  padding-bottom: 70px;
+  background-color: #2a2423;
+  color: #c4d0c8;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 3em;
+}
+
+.the-tech-blog-your-dashboard-title {
+  background-color: #c4d0c8;
+  color: #2a2423;
+  border-radius: 7px;
+  box-shadow: 5px 10px #888888;
+  font-size: 1em;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.top-container {
+  background-color: #2a2423;
+}
+
+.signup-container {
+  margin-bottom: 30px;
+  border: 3px solid #2a2423;
+  background-color: #2a2423;
+  border-radius: 7px;
+}
+
+.signup-title-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2423;
+  padding: 20px;
+  color: #c4d0c8;
+}
+
+.signup-title {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.signup-content {
+  background-color: #c4d0c8;
+  padding: 20px;
+  font-size: 1.05em;
+}
+
+.btn-signup {
+  background-color: #5d5554;
+  margin-bottom: 10px;
+}
+
+.new-post-button {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  text-align: center;
+  padding-top: 200px;
 }
